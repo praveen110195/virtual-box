@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import { ImageBox } from './image-box/image-box';
+import { ImageUpload } from './image-box/ImageUpload';
+import { ProgressBar } from './image-box/progress-bar';
+import SingleImageUploadComponent from './image-box/SingleImageUploadComponent';
+import { ToggleButton } from './image-box/toggle-button';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React Js
-        </a>
-      </header>
+    <div>
+      {/* <ImageBox /> */}
+      {/* <SingleImageUploadComponent /> */}
+      {/* <ProgressBar /> */}
+      {/* <ToggleButton /> */}
+      <ImageUpload />
     </div>
   );
 }
